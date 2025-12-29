@@ -1,0 +1,62 @@
+# システムファイル
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 依存関係
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ビルド出力
+dist/
+build/
+*.local
+
+# ログファイル
+*.log
+logs/
+
+# 環境変数
+.env
+.env.local
+.env.production
+.env.development
+
+# エディタ設定
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# キャッシュ
+.cache/
+.parcel-cache/
+
+# テスト
+coverage/
+.nyc_output/
+
+# OS
+.Trash/
+ehthumbs.db
+
+# 一時ファイル
+*.tmp
+*.bak
+*.backup
+.~*
+
+# アーカイブ
+*.tar.gz
+*.zip
+portfolio-site-public.tar.gz
